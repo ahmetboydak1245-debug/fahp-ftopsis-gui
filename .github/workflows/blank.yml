@@ -24,7 +24,7 @@ jobs:
 
     - name: Build EXE
       run: |
-        pyinstaller --onefile --windowed pfs_fahp_ftopsis_gui.py
+        pyinstaller --onefile --windowed fahpftopss.py
 
     - name: Upload artifact (EXE Dosyası)
       uses: actions/upload-artifact@v4
